@@ -1,8 +1,8 @@
 node {
     def app
     def BUGFIX = 2
-    def MINOR = 15
-    def MAJOR = 2
+    def MINOR = 20
+    def MAJOR = 1
     currentBuild.result = "SUCCESS"
     try {
         stage ('Pull SCM') {
